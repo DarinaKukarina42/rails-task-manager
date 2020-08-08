@@ -3,7 +3,7 @@ class Task < ApplicationRecord
     create_table :restaurants do |t|
       t.string :title
       t.text :details
-      t.completed :boolean
+      t.completed :boolean, default: :false
 
       t.timestamps
     end
