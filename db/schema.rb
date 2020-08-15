@@ -18,7 +18,7 @@ ActiveRecord::Schema.define(version: 2020_08_08_163553) do
     t.boolean "completed"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
-    t.boolean "compleated", default: false
+    # t.boolean "compleated", default: false
   end
 
 end
